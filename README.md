@@ -15,6 +15,11 @@ curl --location --request POST 'localhost:9000/oauth/token' \
 --data-urlencode 'password=pass1'
 
 
+<br/>
+
+<br/>
+
+<br/>
 
 
 
@@ -27,6 +32,9 @@ security.oauth2.client.clientSecret: pluralsightsecret
 
 <br/>
 
+<br/>
+
+<br/>
 In the body use 
 
 grant_type=password

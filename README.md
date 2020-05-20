@@ -19,15 +19,21 @@ curl --location --request POST 'localhost:9000/oauth/token' \
 
 
 Use BAsic auth and use clienntID:slicnetsecret pair
+
 security.oauth2.client.clientId: pluralsight
+
 security.oauth2.client.clientSecret: pluralsightsecret
 
 
 <br/>
 
 In the body use 
+
 grant_type=password
+
 client_id=pluralsight
+
 username=user1
+
 password=pass1
 
